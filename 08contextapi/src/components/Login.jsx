@@ -13,6 +13,8 @@ const Login = () => {
     const handleSubmit = (e) => { 
         e.preventDefault()
         setUser({username, password})
+        setPassword('')
+        setUsername('')
     }
   return (
     <div>
